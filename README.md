@@ -43,8 +43,9 @@ To document Services, I have them grouped based on the name of the service. An e
 	}
  
 	//@}
+	//;
 
-One of the odd things is the //; on the 8th line. I find that without a semicolon above the first RPC call, Doxygen will not properly document the very first call. In the proto2cpp script the // is removed from in front of the ;. This means you CANNOT USE SEMICOLONS IN YOUR COMMENTS. If you do, the // will be removed from your comment line. This has room for improvement, and I will be working on changing this caveat. 
+One of the odd things are the //; on the 8th and the last line. I find that without a semicolon above the first RPC call, Doxygen will not properly document the very first call. In the proto2cpp script the // is removed from in front of the ;. This means you CANNOT USE SEMICOLONS IN YOUR COMMENTS. If you do, the // will be removed from your comment line. This has room for improvement, and I will be working on changing this caveat. 
 
 #### Issues
 
